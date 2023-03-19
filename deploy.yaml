@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: bot
-        image: tuna2134/firedog
+        image: ghcr.io/tuna2134/firedog
         env:
         - name: TOKEN
           valueFrom:
