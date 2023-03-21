@@ -47,3 +47,8 @@ spec:
             secretKeyRef:
               name: bot-secret
               key: db-name
+        - name: OPENAI_APIKEY
+          valueFrom:
+            secretKeyRef:
+              name: bot-secret
+              key: openai-apikey
